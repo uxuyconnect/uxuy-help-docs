@@ -41,6 +41,7 @@ const config: Config = {
       'classic',
       {
         docs: {
+          routeBasePath: "/",
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -63,15 +64,14 @@ const config: Config = {
         alt: 'UXUY Logo',
         src: 'img/logo-dark.svg',
         srcDark: 'img/logo-dark.svg',
-        href: '/docs/intro',
+        href: '/',
       },
       items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'defaultSidebar',
-          position: 'left',
-          label: 'Documentation',
-        },
+        // {
+        //   position: 'left',
+        //   label: 'Blog',
+        //   href: 'https://github.com/uxuyprotocol',
+        // },
         {
           href: 'https://uxuy.com',
           label: 'Official Website',
@@ -92,16 +92,16 @@ const config: Config = {
           items: [
             {
               label: 'Quick Start',
-              to: '/docs/intro',
+              to: '/',
             },
             {
               label: 'Product Overview',
-              to: '/docs/intro',
+              to: '/#platform-introduction',
             },
-            {
-              label: 'FAQ',
-              to: '/docs/faq',
-            },
+            // {
+            //   label: 'FAQ',
+            //   to: '/#faq',
+            // },
           ],
         },
         {
