@@ -47,21 +47,6 @@ const config: Config = {
           editUrl:
             'https://github.com/uxuyprotocol/uxuy-help-docs/tree/main/',
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/uxuyprotocol/uxuy-help-docs/tree/main/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -73,16 +58,17 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/uxuy-social-card.jpg',
     navbar: {
-      title: 'UXUY Help Documentation',
+      title: 'UXUY Help',
       logo: {
         alt: 'UXUY Logo',
         src: 'img/logo-dark.svg',
         srcDark: 'img/logo-dark.svg',
+        href: '/docs/intro',
       },
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'defaultSidebar',
           position: 'left',
           label: 'Documentation',
         },
@@ -121,17 +107,21 @@ const config: Config = {
         {
           title: 'Community',
           items: [
-            {
-              label: 'Technical Support',
-              href: 'https://support.uxuy.com',
-            },
+            // {
+            //   label: 'Technical Support',
+            //   href: 'https://support.uxuy.com',
+            // },
             {
               label: 'Discord',
-              href: 'https://discord.gg/vXRgWxARg6',
+              href: 'https://discord.com/invite/BZwZA27Zkv',
             },
             {
               label: 'Twitter',
               href: 'https://x.com/uxuycom',
+            },
+            {
+              label: 'Telegram',
+              href: 'https://t.me/UXUYbot',
             },
           ],
         },
