@@ -22,6 +22,8 @@ No matter which chain the assets are deployed on, UXUY achieves direct cross-cha
 - Discounted 0.5% service fee applies to mainstream assets (e.g., ETH, BTC, USDT)
 - Single transaction fee capped at $99
 
+![Installing UXUY](/img/image14.png)
+
 ## Leverage Trading — Coming Soon!
 
 UXUY is launching a brand-new leveraged contract trading feature, supporting multi-asset margin positions, flexible leverage adjustment, and real-time risk monitoring to help users seize more market opportunities.
@@ -34,3 +36,5 @@ UXUY is launching a brand-new leveraged contract trading feature, supporting mul
 - Instant execution experience with transparent on-chain settlement
 
 🚀 Exciting upgrade coming soon! 
+
+![Installing UXUY](/img/image15.png)

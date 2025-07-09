@@ -21,6 +21,9 @@ const sidebars: SidebarsConfig = {
     'product-features',
     'trading-guide',
     'faq',
+    "terms-of-service",
+    'privacy-policy'
+
   ],
 
   // But you can create a sidebar manually
